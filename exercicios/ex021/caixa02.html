@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav {
+            background-color: aqua;
+            padding: 3px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: white;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: aqua;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#"></a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>notícias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum doloribus maxime illo enim ut doloremque aliquam, veritatis sapiente reprehenderit autem consequuntur cum eum nulla quos, ducimus dicta nemo illum officia?</p>
+                <aside>
+                    <p>artigo escrito por josé da silva</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo Cursoemvideo</p>
+    </footer>
+</body>
+</html>
